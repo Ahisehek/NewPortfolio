@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+
+:root {
+  --color-bg: #0F172A;
+  --color-card: #1E293B;
+  --color-text: #E2E8F0;
+  --color-text-secondary: #94A3B8;
+  --color-primary: #6366F1;
+  --color-border: #334155;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/Ubuntu-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Panchang";
+  src: url("/fonts/Panchang-Bold.woff2") format(woff2); 
+}
+
+.font-body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.font-heading{
+  font-family: "Panchang", sans-serif ;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
