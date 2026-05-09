@@ -67,7 +67,7 @@ export default function Navbar() {
                 </h1>
 
                 {/* Desktop Nav */}
-                <div className="hidden md:flex gap-8 lg:gap-10">
+                <div className="hidden md:flex gap-8 lg:gap-10  pb-5 px-4">
                     {sections.map((item) => (
                         <a
                             key={item}

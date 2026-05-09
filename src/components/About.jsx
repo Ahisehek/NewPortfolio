@@ -4,6 +4,7 @@ export default function About() {
     return (
         <section id="about" className="px-6 md:px-20 py-20   text-[var(--color-text)]">
 
+
             <div className="flex justify-center items-center">
 
                 {/* LEFT IMAGE */}

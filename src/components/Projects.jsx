@@ -6,14 +6,14 @@ const projects = [
 
     {
         title: "Resume Analyzer",
-        desc: "Bag selling platform with admin panel",
+        desc: "AI-powered resume analysis platform where users upload resumes to get ATS score, job match probability, skill gap analysis, improvement suggestions, and recommended job roles based on their profile.",
         img: "/images/ranalyzer.png",
         github: "#",
         live: "#",
     },
     {
         title: "IT Ticketing System",
-        desc: "Secure password storage with encryption",
+        desc: "Internal ERP support ticketing system where employees can raise tickets for vendor creation, item creation, machine setup, ERP issues, and other technical problems which are managed and resolved by the head office support team.",
         img: "/images/ticketing.png",
         github: "#",
         live: "https://systemm-five.vercel.app/",
@@ -21,14 +21,14 @@ const projects = [
 
     {
         title: "Company Portfolio",
-        desc: "Bag selling platform with admin panel",
+        desc: "Modern company portfolio website built using React, Tailwind CSS, and Framer Motion with smooth animations, responsive layouts, interactive UI sections, and premium visual effects.",
         img: "/images/cportfolio.png",
         github: "#",
         live: "https://dvplindia.in/",
     },
     {
         title: "Location Tracker",
-        desc: "Full stack blog with authentication",
+        desc: "Real-time location tracking application built using Socket.io and React Leaflet that allows users to track live locations dynamically with interactive maps and real-time updates.",
         img: "/images/ltracker.png",
         github: "#",
         live: "#",
