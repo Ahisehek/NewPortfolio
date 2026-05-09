@@ -97,17 +97,17 @@ const education = [
     {
         year: "2023 - 2025",
         title: "Master of Computer Applications (MCA)",
-        desc: "Currently pursuing MCA with focus on full stack development.",
+        desc: "focus on full stack development.",
     },
     {
         year: "2020 - 2023",
         title: "Bachelor's Degree",
-        desc: "Completed graduation with strong foundation in computer science.",
+        desc: "strong foundation in computer science.",
     },
     {
         year: "2018 - 2020",
         title: "Higher Secondary",
-        desc: "Completed 12th with science stream.",
+        desc: "science stream.",
     },
 ];
 

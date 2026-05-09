@@ -33,7 +33,10 @@ export default function About() {
                     </h2>
 
                     <p className="font-body  text-[var(--color-text-secondary)] text-center text-2xl mb-6">
-                        I'm a passionate Full Stack Developer currently pursuing MCA.<br />
+                        I'm a passionate Full Stack Developer.<br />
+                        completed MCA from Rajiv Gandhi Proudyogiki Vishwavidyalaya (R.G.P.V) Bhopal, MP.
+                        <br />
+
                         I love building modern web applications with clean UI and <br />
                         scalable backend systems using MERN stack.
                     </p>
@@ -43,17 +46,17 @@ export default function About() {
 
                         <div className="font-body bg-[var(--color-card)] p-4 rounded-xl text-center">
                             <h3 className="text-xl font-bold text-[var(--color-primary)]">
-                                5+
+                                4+
                             </h3>
                             <p className="font-body text-sm">Projects</p>
                         </div>
 
-                        <div className="bg-[var(--color-card)] p-4 rounded-xl text-center">
+                        {/* <div className="bg-[var(--color-card)] p-4 rounded-xl text-center">
                             <h3 className="font-body text-xl font-bold text-[var(--color-primary)]">
                                 MCA
                             </h3>
                             <p className="font-body text-sm">Student</p>
-                        </div>
+                        </div> */}
 
                         <div className="bg-[var(--color-card)] p-4 rounded-xl text-center">
                             <h3 className="font-body text-xl font-bold text-[var(--color-primary)]">

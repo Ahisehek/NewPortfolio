@@ -303,7 +303,7 @@ export default function Hero() {
                     </p>
 
                     <p className="mt-4 text-sm sm:text-base text-[var(--color-text-secondary)] max-w-2xl leading-relaxed">
-                        Currently pursuing MCA and continuously exploring new technologies,
+                        Pursued MCA and continuously exploring new technologies,
                         creative interfaces, and high-performance frontend experiences.
                     </p>
 
