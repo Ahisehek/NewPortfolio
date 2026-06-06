@@ -26,7 +26,7 @@ export default function Contact() {
                     <div className="space-y-4">
                         <div className="flex items-center gap-3">
                             <FaEnvelope className="text-[var(--color-primary)]" />
-                            <span className="text-[var(--color-primary)]">kushwahaasbhishek839@gmail.com</span>
+                            <span className="text-[var(--color-primary)]">kushwahaabhishesk2001@gmail.com</span>
                         </div>
                     </div>
 

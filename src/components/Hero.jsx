@@ -310,7 +310,7 @@ export default function Hero() {
                     {/* Buttons */}
                     <div className="flex flex-wrap gap-4 mt-10">
 
-                        <button
+                        {/* <button
                             className="font-body bg-[var(--color-primary)]
                             hover:scale-105 px-5 sm:px-6 py-3 rounded-xl
                             transition duration-300 text-white
@@ -318,10 +318,23 @@ export default function Hero() {
                             text-sm sm:text-base"
                         >
                             Hire Me
+                        </button> */}
+                        <button
+                            className="font-body bg-[var(--color-primary)]
+                            hover:scale-105 px-5 sm:px-6 py-3 rounded-xl
+                            transition duration-300 text-white
+                            shadow-lg hover:shadow-[0_0_20px_#6366F1]
+                            text-sm sm:text-base"
+                            onClick={() =>
+                                window.open(
+                                    "https://mail.google.com/mail/?view=cm&fs=1&to=kushwahaabhishesk2001@gmail.com&su=Hiring%20Inquiry"
+                                )
+                            }
+                        >
+                            Hire Me
                         </button>
-
                         <a
-                            href="/Abhishek kushwaha01.pdf"
+                            href="/Abhishek_Resume.pdf"
                             download
                             className="font-body flex items-center gap-2
                             border border-[var(--color-primary)]

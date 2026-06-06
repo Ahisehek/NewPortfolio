@@ -92,7 +92,7 @@ export default function Navbar() {
 
                 {/* Desktop Resume Button */}
                 <a
-                    href="/Abhishek kushwaha01.pdf"
+                    href="/Abhishek_Resume.pdf"
                     download
                     className="hidden md:flex items-center gap-2 bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-card)] px-5 py-2.5 rounded-xl text-white text-sm font-medium 
           hover:scale-105 hover:shadow-lg transition"
