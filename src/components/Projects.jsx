@@ -2,39 +2,85 @@ import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
-const projects = [
+// const projects = [
 
+//     {
+//         title: "Resume Analyzer",
+//         desc: "AI-powered resume analysis platform where users upload resumes to get ATS score, job match probability, skill gap analysis, improvement suggestions, and recommended job roles based on their profile.",
+//         img: "/images/ranalyzer.png",
+//         github: "#",
+//         live: "#",
+//     },
+//     {
+//         title: "IT Ticketing System",
+//         desc: "Internal ERP support ticketing system where employees can raise tickets for vendor creation, item creation, machine setup, ERP issues, and other technical problems which are managed and resolved by the head office support team.",
+//         img: "/images/ticketing.png",
+//         github: "#",
+//         live: "https://systemm-five.vercel.app/",
+//     },
+
+//     {
+//         title: "Company Portfolio",
+//         desc: "Modern company portfolio website built using React, Tailwind CSS, and Framer Motion with smooth animations, responsive layouts, interactive UI sections, and premium visual effects.",
+//         img: "/images/cportfolio.png",
+//         github: "#",
+//         live: "https://dvplindia.in/",
+//     },
+//     {
+//         title: "Location Tracker",
+//         desc: "Real-time location tracking application built using Socket.io and React Leaflet that allows users to track live locations dynamically with interactive maps and real-time updates.",
+//         img: "/images/ltracker.png",
+//         github: "#",
+//         live: "#",
+//     },
+// ];
+
+const projects = [
     {
-        title: "Resume Analyzer",
-        desc: "AI-powered resume analysis platform where users upload resumes to get ATS score, job match probability, skill gap analysis, improvement suggestions, and recommended job roles based on their profile.",
+        title: "AI Resume Analyzer",
+        desc: "AI-powered resume analysis platform that compares resumes with job descriptions, calculates ATS score and job match percentage, identifies skill gaps, provides improvement suggestions, and recommends suitable job roles using Generative AI and OCR.",
         img: "/images/ranalyzer.png",
         github: "#",
         live: "#",
+        tech: ["React", "Node.js", "MongoDB", "Gen AI", "OCR"],
     },
+
     {
-        title: "IT Ticketing System",
-        desc: "Internal ERP support ticketing system where employees can raise tickets for vendor creation, item creation, machine setup, ERP issues, and other technical problems which are managed and resolved by the head office support team.",
+        title: "IT Support Management System",
+        desc: "Enterprise support management platform where employees can submit requests for vendor creation, item management, machinery registration, and ERP-related issues. Includes real-time communication and ticket tracking using Socket.IO.",
         img: "/images/ticketing.png",
         github: "#",
         live: "https://systemm-five.vercel.app/",
+        tech: ["React", "Node.js", "MongoDB", "Socket.IO"],
     },
 
     {
-        title: "Company Portfolio",
-        desc: "Modern company portfolio website built using React, Tailwind CSS, and Framer Motion with smooth animations, responsive layouts, interactive UI sections, and premium visual effects.",
-        img: "/images/cportfolio.png",
+        title: "ERP Data Entry Automation Tool",
+        desc: "Automation solution that fetches structured data from Google Sheets and automatically performs vendor and item entries into the ERP system using Playwright, reducing manual work and improving accuracy.",
+        img: "/images/erpautomation.png",
         github: "#",
-        live: "https://dvplindia.in/",
+        live: "#",
+        tech: ["Node.js", "Playwright", "Google Sheets API"],
     },
+
     {
-        title: "Location Tracker",
-        desc: "Real-time location tracking application built using Socket.io and React Leaflet that allows users to track live locations dynamically with interactive maps and real-time updates.",
+        title: "Real-Time Location Tracker",
+        desc: "Location-sharing platform where users can create rooms, share room IDs, and track multiple participants live on an interactive map with real-time updates using Socket.IO and Leaflet.",
         img: "/images/ltracker.png",
         github: "#",
         live: "#",
+        tech: ["React", "Node.js", "Socket.IO", "Leaflet"],
+    },
+
+    {
+        title: "Corporate Portfolio Website",
+        desc: "Modern and responsive company portfolio website featuring smooth animations, interactive UI sections, premium design aesthetics, and optimized user experience built with React and Framer Motion.",
+        img: "/images/cportfolio.png",
+        github: "#",
+        live: "https://dvplindia.in/",
+        tech: ["React", "Tailwind CSS", "Framer Motion"],
     },
 ];
-
 export default function Projects() {
     return (
         <section id="projects" className="px-6 md:px-20 py-20 ">
@@ -49,7 +95,7 @@ export default function Projects() {
             </motion.h2>
 
             {/* Grid */}
-            <div className="grid md:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-5 gap-8">
 
                 {projects.map((p, i) => (
                     <motion.div
