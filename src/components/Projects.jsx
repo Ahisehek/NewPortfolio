@@ -57,7 +57,7 @@ const projects = [
     {
         title: "ERP Data Entry Automation Tool",
         desc: "Automation solution that fetches structured data from Google Sheets and automatically performs vendor and item entries into the ERP system using Playwright, reducing manual work and improving accuracy.",
-        img: "/images/erpautomation.png",
+        img: "/images/erpauto.png",
         github: "#",
         live: "#",
         tech: ["Node.js", "Playwright", "Google Sheets API"],
